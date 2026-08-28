@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     // Output to 'dist' when building on Vercel, or to repo root for GitHub Pages
     outDir: process.env.VERCEL ? "dist" : "../",
+    emptyOutDir: false,
     // Do NOT wipe repo root — preserves .git, downloads/, bigplan.md, etc.
   },
 });
