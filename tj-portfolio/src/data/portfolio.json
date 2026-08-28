@@ -1,0 +1,159 @@
+{
+  "name": "Robert",
+  "title": "Senior Technical Lead",
+  "location": "South Jakarta, Indonesia",
+  "yearsExperience": 10,
+  "about": "Engineering Manager and Technical Lead with 10+ years of experience driving technical vision and architectural modernization for enterprise-scale SaaS products. I specialize in applied AI integration, distributed microservices, and high-performance mobile-to-backend systems — turning complex engineering challenges into streamlined, scalable solutions.",
+  "contact": {
+    "linkedin": "https://www.linkedin.com/in/roberttjjif/",
+    "github": "https://github.com/RobertJif",
+    "email": "mailto:roberttjjif@gmail.com?subject=Portfolio%20Inquiry"
+  },
+  "cvUrl": "downloads/Robert_CV.pdf",
+  "experience": [
+    {
+      "title": "Senior Technical Lead",
+      "company": "PT. Bukit Teknologi Digital",
+      "period": "APR 2026 – Present",
+      "bullets": [
+        "Integrate AI pipelines across the SDLC (agents, MCP servers, workflow skills) from requirements to production.",
+        "Embed LLM capabilities into core products to transform and streamline user workflows.",
+        "Built a proprietary, multi-layered automation framework (web/mobile/offline) optimized for AI agents and non-technical QA.",
+        "Transform legacy monoliths into scalable, multi-tenant SaaS microservices to lower costs and simplify deployments.",
+        "Architect offline-first mobile-to-backend systems optimized for low-bandwidth (3G), high-latency environments.",
+        "Implement micro-frontends and Event-Driven Architectures (Azure Service Bus, Golang, Next.js) to accelerate releases.",
+        "Lead cross-functional teams across enterprise product lines (Asset, People, and Safety Management).",
+        "Revamped a legacy mobile app in 3 months, dropping a 15%+ crash rate to zero while retaining all functionality."
+      ]
+    },
+    {
+      "title": "Technical Lead",
+      "company": "PT. Bukit Teknologi Digital",
+      "period": "OCT 2023 – APR 2026",
+      "bullets": [
+        "Integrating AI into products to bring impact and change day in life of users.",
+        "Implementing multi-tenant architecture for SaaS services, reducing costs and enabling seamless new tenant deployment.",
+        "Implementing micro-frontend architecture to help products go live easier.",
+        "Introducing new technologies to team: Golang and Next.js.",
+        "Developing libraries (C# and TypeScript) for logging, background services, and more — helping developers move faster.",
+        "Leading multiple teams on Asset Management and Safety Management products targeting Coal Mining tenants."
+      ]
+    },
+    {
+      "title": "Technical Lead",
+      "company": "PT. Jaya Agung Teknologi",
+      "period": "MAR 2022 – OCT 2023",
+      "bullets": [
+        "Work as Tech Lead, maintaining and improving the way team works on the codebase.",
+        "Defining standards and structures used across all codebases.",
+        "Developing apps using Next.js (React), Node.js, Golang (Fiber), and Django Rest Framework.",
+        "Led migration of all legacy React projects to Next.js and Django projects to Golang, improving developer experience and performance.",
+        "Worked in a Scrum team of 12 with 3-week sprints."
+      ]
+    }
+  ],
+  "totalExperienceNote": "10+ years of professional experience (2016 – present), including Senior Full-Stack, Technical Lead, and Engineering Manager roles across fintech, energy, and enterprise SaaS.",
+  "skills": {
+    "Languages & Frameworks": [
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Node.js",
+      "Golang",
+      "C# / ASP.NET Core",
+      "Python",
+      "Django REST",
+      "NestJS",
+      "PHP",
+      "Laravel"
+    ],
+    "Databases": [
+      "PostgreSQL",
+      "MySQL",
+      "T-SQL / SQL Server",
+      "MongoDB",
+      "NoSQL"
+    ],
+    "Cloud & Infrastructure": [
+      "AWS",
+      "GCP",
+      "Azure Service Bus",
+      "Docker",
+      "Microservices",
+      "Event-Driven Architecture",
+      "Multi-tenant SaaS",
+      "Micro-frontends"
+    ],
+    "AI & Tooling": [
+      "LLM Integration",
+      "AI Agents",
+      "MCP Servers",
+      "SDLC Automation",
+      "Workflow Skills",
+      "Applied AI"
+    ],
+    "Operating Systems": ["Linux (Ubuntu, CentOS)", "Windows"]
+  },
+  "projects": [
+    {
+      "name": "AI Pipeline Integration across SDLC",
+      "companyRef": "PT. Bukit Teknologi Digital",
+      "stack": ["AI Agents", "MCP Servers", "LLM", "Workflow Automation"],
+      "description": "Integrated AI pipelines from requirements to production across enterprise product lines. Embedded LLM capabilities into core products transforming user workflows."
+    },
+    {
+      "name": "Enterprise Mobile App Revamp",
+      "companyRef": "PT. Bukit Teknologi Digital",
+      "stack": ["Mobile", "Offline-First", "Low-Bandwidth Architecture"],
+      "description": "Revamped a legacy mobile app in 3 months for 3G/high-latency environments. Dropped crash rate from 15%+ to zero while retaining all functionality."
+    },
+    {
+      "name": "Multi-tenant SaaS Platform (Asset & Safety Management)",
+      "companyRef": "PT. Bukit Teknologi Digital",
+      "stack": [
+        "Golang",
+        "Next.js",
+        "Azure",
+        "Azure Service Bus",
+        "Micro-frontends",
+        "C#",
+        "ASP.NET Core"
+      ],
+      "description": "Transformed legacy monolith into scalable multi-tenant SaaS. Implemented Event-Driven Architecture and micro-frontends targeting Coal Mining industry tenants."
+    },
+    {
+      "name": "Backoffice & Member Portal",
+      "companyRef": "PT. Jaya Agung Teknologi",
+      "stack": [
+        "React",
+        "Next.js",
+        "Django REST",
+        "PostgreSQL",
+        "Golang",
+        "Fiber",
+        "Google Cloud Platform"
+      ],
+      "description": "High-traffic dual-portal system (member + backoffice) handling 1M+ transactions per hour. Led migration from legacy React to Next.js."
+    },
+    {
+      "name": "Backoffice & Affiliate Portal",
+      "companyRef": "Xuenn Private Limited",
+      "stack": ["Vue.js", "Vuetify", "ASP.NET Core", "MongoDB", "SignalR"],
+      "description": "Full-stack dual-portal web app for affiliates and backoffice. Featured real-time dashboard via SignalR and multi-language (i18n) support."
+    },
+    {
+      "name": "Central Web Services API",
+      "companyRef": "PT. Pertamina Hulu Kalimantan Timur",
+      "stack": ["ASP.NET", "REST API", "WSDL", "T-SQL"],
+      "description": "Enterprise REST API hub handling data sync across all internal company applications, built with ASP.NET."
+    },
+    {
+      "name": "Academic Management System",
+      "companyRef": "Cendana High School",
+      "stack": ["Firebase", "Java", "CodeIgniter"],
+      "description": "Full-featured academic system covering evaluations, student reports, attendance, and activity tracking — web + Android."
+    }
+  ]
+}
