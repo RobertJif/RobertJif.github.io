@@ -6,9 +6,8 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
   build: {
-    // Output built files to the repo root for GitHub Pages
-    outDir: "../",
+    // Output to 'dist' when building on Vercel, or to repo root for GitHub Pages
+    outDir: process.env.VERCEL ? "dist" : "../",
     // Do NOT wipe repo root — preserves .git, downloads/, bigplan.md, etc.
-    emptyOutDir: false,
   },
 });
